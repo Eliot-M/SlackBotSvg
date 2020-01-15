@@ -66,7 +66,7 @@ def capitalise(**payload):
 
 if __name__ == "__main__":
     ssl_context = ssl_lib.create_default_context(cafile=certifi.where())
-    slack_token = 'xoxb-790886708917-860373406177-Tsc5FXkEJJVv10HZUcaJ9DJm'  # os.environ['SLACK_BOT_TOKEN']
+    slack_token = 'xoxb-XXX'  # os.environ['SLACK_BOT_TOKEN']
     rtm_client = slack.RTMClient(token=slack_token, ssl=ssl_context)
     rtm_client.start()
 #
